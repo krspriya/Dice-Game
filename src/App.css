@@ -1,0 +1,28 @@
+.app {
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Arial, sans-serif;
+}
+
+.app.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.app.dark {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.app.dark button {
+    background-color: #555;
+}
